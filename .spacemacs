@@ -37,6 +37,13 @@ values."
      ;; <M-m f e R> (Emacs style) to install them.
      ;; ----------------------------------------------------------------
      helm
+     ;; --------------------------------------------------------------------
+     ;; You can prevent an automatic layer dependency installation by
+     ;; setting <LAYER>-docker-spacemacs-disable-dependencies-installer to t
+     ;; Example:
+     ;; (pandoc :variables
+     ;;         pandoc-docker-spacemacs-disable-dependencies-installer t)
+     ;; --------------------------------------------------------------------
      ;; auto-completion
      ;; better-defaults
      emacs-lisp
