@@ -1,7 +1,6 @@
 #!/usr/bin/env sh
 
 docker build                              \
-  --build-arg _UNAME="syl20bnr"           \
   --build-arg _UNAME="spacemacser"        \
   --build-arg _GNAME="spacemacsians"      \
   --build-arg _UHOME="/home/spacemacs"    \
