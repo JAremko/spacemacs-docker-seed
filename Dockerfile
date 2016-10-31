@@ -6,6 +6,8 @@ MAINTAINER YOUR_NAME <YOUR_EMAIL>
 ## You can aothurithe Xpra access over ssh like this:
 # ADD https://github.com/syl20bnr.keys /etc/pub-keys/some_name.pub
 
+USER root
+
 ## Install zsh, firefox with Elisp
 # RUN (install zsh firefox)
 ## Or with bash
@@ -13,7 +15,9 @@ MAINTAINER YOUR_NAME <YOUR_EMAIL>
 #
 # RUN apt-get update                     && \
 #     apt-get install zsh firefox        && \
-#     rm -rf /tmp/* /var/lib/apt/lists/* 
+#     rm -rf /tmp/* /var/lib/apt/lists/*
+
+USER ${UNAME}
 
 ## Default values from syl20bnr/docker-emacs
 # ENV SHELL="/bin/bash"             \
