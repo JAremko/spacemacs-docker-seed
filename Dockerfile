@@ -13,6 +13,6 @@ RUN apt-get update \
 COPY .spacemacs "${UHOME}/.spacemacs"
 COPY private "${UHOME}/.emacs.d/private"
 
-# It will install layer dependencies and initialize user. May take a while.
+# Install layers dependencies and initialize the user
 RUN install-deps
 
