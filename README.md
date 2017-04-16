@@ -1,6 +1,6 @@
 #### spacemacs-docker seed repository
 
-##### While waiting for [syl20bnr/spacemacs#8588](https://github.com/syl20bnr/spacemacs/pull/8588) You can use `jare/spacebox` as a base image
+##### You can use `jare/spacebox` while we are waiting for the official release.
 
 
 ##### Content:

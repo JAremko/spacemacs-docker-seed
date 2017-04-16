@@ -1,5 +1,5 @@
-# FROM spacemacs/emacs-snapshot
-FROM spacemacs/emacs25
+FROM spacemacs/emacs-snapshot
+#FROM spacemacs/emacs25
 
 # Has to be secified before `RUN install-deps`
 ENV UNAME="spacemacser"
@@ -7,7 +7,9 @@ ENV UID="1000"
 
 # Ubuntu Xenial
 RUN apt-get update \
-    && apt-get install dstat \
+    && apt-get install \
+    dstat \
+    firefox \
     && rm -rf /var/lib/apt/lists/*
 
 COPY .spacemacs "${UHOME}/.spacemacs"
