@@ -1,8 +1,5 @@
 #### spacemacs-docker seed repository
 
-##### You can use `jare/spacebox` while we are waiting for the official release.
-
-
 ##### Content:
   - `private` - same as https://github.com/syl20bnr/spacemacs/tree/master/private
   - `.spacemacs` - All configs (except user) are set here

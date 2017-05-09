@@ -1,5 +1,5 @@
-FROM spacemacs/emacs-snapshot
-#FROM spacemacs/emacs25
+FROM spacemacs/emacs-snapshot:develop
+#FROM spacemacs/emacs25:develop
 
 # Has to be secified before `RUN install-deps`
 ENV UNAME="spacemacser"
